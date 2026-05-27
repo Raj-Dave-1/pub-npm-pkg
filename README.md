@@ -14,6 +14,8 @@ An npm package is simply:
 package.json:
 Extremly important settings:
 
+  "author": "Raj Dave",
+  "license": "ISC",
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
@@ -25,10 +27,17 @@ Extremly important settings:
 - make sure build and start is working fine
 - npm publish 
 - authenticate your self and pkg should be published
-
+- push repo on github ( optional )
 - make changes
 - update version using : npm version <major|minor|patch>
 
+
+Modify Package.json abd add: 
+ "homepage": "https://github.com/USER-NAME/your-package#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USER-NAME/your-package.git"
+  },
 
 
 Best Practices: The key standards, maintenance habits, and conventions developers should follow when publishing packages

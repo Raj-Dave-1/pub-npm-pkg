@@ -1,7 +1,7 @@
 {
   "name": "get-sum-of-unlimited-values",
   "version": "1.0.2",
-  "main": "index.js",
+  "main": "./outputDirectory/index.js",
   "type": "module",
   "bin": {
     "mycli": "do't know"
