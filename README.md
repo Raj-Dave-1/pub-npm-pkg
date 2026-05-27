@@ -16,7 +16,11 @@ An npm package is simply:
 - npm whoami
 - npm login
 - make sure build and start is working fine
+- npm publish 
+- authenticate your self and pkg should be published
 
+- make changes
+- update version using : npm version <major|minor|patch>
 
 
 
