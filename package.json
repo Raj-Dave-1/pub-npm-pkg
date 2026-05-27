@@ -5,7 +5,7 @@
   "types": "./outputDirectory/index.d.ts",
   "type": "module",
   "bin": {
-    "mycli": "do't know"
+    "mycmd-1": "./runfile/index.js"
   },
   "scripts": {
     "build": "tsc",
