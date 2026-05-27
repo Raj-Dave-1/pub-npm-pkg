@@ -15,6 +15,9 @@ An npm package is simply:
 1. Once we have npm package, login to npm registry using cli, Here's some useful commands: 
 - npm whoami
 - npm login
+- make sure build and start is working fine
+
+
 
 
 Best Practices: The key standards, maintenance habits, and conventions developers should follow when publishing packages
