@@ -1,6 +1,6 @@
 {
   "name": "get-sum-of-unlimited-values",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "./outputDirectory/index.js",
   "types": "./outputDirectory/index.d.ts",
   "type": "module",
