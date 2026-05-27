@@ -11,6 +11,13 @@ An npm package is simply:
 * With a package.json
 * Published to the npm registry
 
+package.json:
+Extremly important settings:
+
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
 
 1. Once we have npm package, login to npm registry using cli, Here's some useful commands: 
 - npm whoami
