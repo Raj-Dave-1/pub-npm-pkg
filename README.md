@@ -41,13 +41,14 @@ npm publish
 npm version <major|minor|patch>
 ```
 
-Additional Notes:
+## Additional Notes
 
 - Make sure build and start is working fine
 - Authenticate yourself and package should be published
 - Push repo on GitHub (optional)
 - Make changes
 - Update version before republishing
+- Run `npm pack` to see what will be published
 
 ---
 
@@ -58,13 +59,13 @@ Add/update:
 ```json
 {
   "main": "./outDir/index.ts",
-  "types": "./outputDirectory/index.d.ts",
+  "types": "./outDir/index.d.ts",
 
-  "homepage": "https://github.com/USER-NAME/your-package#readme",
+  "homepage": "https://github.com/USER-NAME/REPOSITORY#readme",
 
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USER-NAME/your-package.git"
+    "url": "git+https://github.com/USER-NAME/REPOSITORY.git"
   },
 
   "files": [
@@ -106,18 +107,46 @@ import("../outputDirectory/index.js");
 
 # Best Practices
 
-The key standards, maintenance habits, and conventions developers should follow when publishing packages.
+- Writing a clean and useful README.md
+- Proper version management
+- Keeping packages small and optimized
+- Avoiding accidental publishing of sensitive files
+- Using the files field correctly
+- Supporting TypeScript definitions
+- Maintaining backward compatibility
+- Testing packages before publishing
+- Using GitHub Actions or CI/CD for automated publishing
 
 ---
 
 # Monetization
 
+- Sponsorships and GitHub Sponsors  
+  (ex: https://fastify.dev/)
+- Open-source funding platforms
+- Paid SaaS products built around npm packages
+- Premium features or enterprise versions
+
 ---
 
 # Supply Chain Security
+
+- Avoiding random or untrusted packages
+- Auditing dependencies regularly
+- Using tools like:
+  - `npm audit`
+  - Dependabot
+  - Socket.dev
+- Checking package popularity and maintenance activity
 
 ---
 
 # Publisher Identity
 
-From a security standpoint, how can developers genuinely verify and trust the identity of a package publisher?
+- Checking verified GitHub repositories
+- Looking at publisher history and community reputation
+- Reviewing contributor activity and maintenance consistency
+- Looking for linked websites or organizations
+- Understanding verified publishers and trusted organizations
+- Checking download history and issue discussions
+- Identifying red flags in suspicious packages
