@@ -31,14 +31,21 @@ Extremly important settings:
 - make changes
 - update version using : npm version <major|minor|patch>
 
-
-Modify Package.json abd add: 
+Modify Package.json add/update: 
+"main": "./outDir/index.ts",
+"types": "./outputDirectory/index.d.ts",
+  
  "homepage": "https://github.com/USER-NAME/your-package#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/USER-NAME/your-package.git"
   },
 
+  "files": [
+    "bin",
+    "dist",
+    "README.md"
+  ],
 
 Best Practices: The key standards, maintenance habits, and conventions developers should follow when publishing packages
 

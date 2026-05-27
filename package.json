@@ -2,6 +2,7 @@
   "name": "get-sum-of-unlimited-values",
   "version": "1.0.3",
   "main": "./outputDirectory/index.js",
+  "types": "./outputDirectory/index.d.ts",
   "type": "module",
   "bin": {
     "mycli": "do't know"
@@ -11,6 +12,10 @@
     "dev": "nodemon --exec tsx ./src/index.ts",
     "start": "node ./outputDirectory/index.js"
   },
+  "files": [
+    "outputDirectory",
+    "README.md"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
