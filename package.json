@@ -1,5 +1,5 @@
 {
-  "name": "pub-npm-pkg",
+  "name": "get-sum-of-unlimited-values",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

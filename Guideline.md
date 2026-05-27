@@ -11,6 +11,12 @@ An npm package is simply:
 * With a package.json
 * Published to the npm registry
 
+
+1. Once we have npm package, login to npm registry using cli, Here's some useful commands: 
+- npm whoami
+- npm login
+
+
 Best Practices: The key standards, maintenance habits, and conventions developers should follow when publishing packages
 
 Monetization
